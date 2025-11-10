@@ -74,7 +74,7 @@ button {
 
 }
 
-.featured-text {
+.featured-text, .insta-text {
     text-align: center;
     margin-top: 10px;
     width: 40%;
@@ -181,4 +181,26 @@ button {
 .hot-deal img {
     width: 80%;
     height: 80%;
+}
+
+
+
+
+
+.insta{
+    margin-top: 130px;
+}
+
+
+.insta-image{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1720px;
+    width: 88%;
+    gap: 30px;
+    margin: 0 auto;
+}
+
+.insta-image img{
+    width: 250px;
 }
