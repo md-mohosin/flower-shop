@@ -11,8 +11,9 @@
 
 
 .banner {
+    margin: 0 auto;
     background-color: #FCEDF1;
-    max-width: 1720px;
+    max-width: 1440px;
     width: 100%;
     height: 580px;
     font-family: "Inter", sans-serif;
@@ -70,20 +71,21 @@ button {
 
 
 .featured-section {
-    margin-top: 130px;
-font-family: 'inter';
+    font-family: 'inter';
+    max-width: 1440px;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 150px;
 }
 
 .featured-text,
 .insta-text {
     text-align: center;
-    margin-top: 10px;
     width: 40%;
     margin: 0 auto;
 }
 
 .featured-flower {
-    width: 88%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -92,8 +94,8 @@ font-family: 'inter';
 }
 
 .featured-flower1 {
-    width: 330px;
-    height: 400px;
+    width: 380px;
+    height: 450px;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
     background-color: #F2DEE8;
@@ -113,8 +115,8 @@ font-family: 'inter';
 
 
 .featured-flower2 {
-    width: 330px;
-    height: 400px;
+    width: 380px;
+    height: 450px;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
     background-color: #DAF0F1;
@@ -135,8 +137,8 @@ font-family: 'inter';
 
 
 .featured-flower3 {
-    width: 330px;
-    height: 400px;
+    width: 380px;
+    height: 450px;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
     background-color: #E4ECDC;
@@ -157,12 +159,14 @@ font-family: 'inter';
 
 
 
-
+.hot-deal-section{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 150px;
+}
 
 .hot-deal {
-    margin-top: 130px;
-    max-width: 100%;
-    width: 100%;
     background-color: #FDF6F8;
     height: 400px;
     display: flex;
@@ -188,8 +192,11 @@ font-family: 'inter';
 
 
 
-.insta {
-    margin-top: 130px;
+.instagram {
+    max-width: 1440px;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 150px;
     font-family: 'inter';
 }
 
@@ -197,14 +204,10 @@ font-family: 'inter';
 .insta-image {
     display: flex;
     justify-content: space-between;
-    max-width: 1720px;
-    width: 88%;
-    gap: 30px;
-    margin: 0 auto;
 }
 
 .insta-image img {
-    width: 250px;
+    width: 280px;
 }
 
 
@@ -215,13 +218,15 @@ font-family: 'inter';
 
 
 .latest-section {
-    margin-top: 130px;
+    margin-top: 150px;
+    max-width: 1440px;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 150px;
     font-family: 'inter';
 }
 
 .latest {
-    max-width: 1720px;
-    width: 88%;
     height: 350px;
     margin: 0 auto;
     background-image: url('./images/Rectangle\ 9.png');
@@ -243,10 +248,15 @@ input {
 
 
 
+footer{
+     margin-top: 130px;
+}
 
-footer {
-    margin-top: 130px;
-    max-width: 1720px;
+
+.footer-section{
+   
+    max-width: 1440px;
+    margin: 0 auto;
     width: 100%;
     height: 350px;
     background-color: black;
@@ -257,7 +267,7 @@ footer {
     font-family: 'inter';
 }
 
-span{
+span {
     color: #E55473;
 }
 
