@@ -55,7 +55,7 @@ button {
     color: white;
     border: none;
     border-radius: 4px;
-
+    font-family: 'inter';
 }
 
 
@@ -71,7 +71,7 @@ button {
 
 .featured-section {
     margin-top: 130px;
-
+font-family: 'inter';
 }
 
 .featured-text,
@@ -160,7 +160,6 @@ button {
 
 
 .hot-deal {
-    border: 1px solid red;
     margin-top: 130px;
     max-width: 100%;
     width: 100%;
@@ -170,6 +169,7 @@ button {
     justify-content: center;
     align-items: center;
     gap: 200px;
+    font-family: 'inter';
 }
 
 
@@ -190,6 +190,7 @@ button {
 
 .insta {
     margin-top: 130px;
+    font-family: 'inter';
 }
 
 
@@ -215,6 +216,7 @@ button {
 
 .latest-section {
     margin-top: 130px;
+    font-family: 'inter';
 }
 
 .latest {
@@ -234,6 +236,7 @@ input {
     width: 350px;
     border: none;
     border-radius: 4px;
+    font-family: 'inter';
 }
 
 
@@ -248,10 +251,17 @@ footer {
     height: 350px;
     background-color: black;
     color: white;
-    display: flex; justify-content: center; align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'inter';
 }
 
-footer div{
+span{
+    color: #E55473;
+}
+
+footer div {
     width: 40%;
     text-align: center;
 }
